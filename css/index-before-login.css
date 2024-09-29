@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #111;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically centers the content */
+    height: 60px; /* Set a specific height for the navbar */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the items within the ul */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #00FF00;
+}
+
+
+
+/* Main Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #1a1a1a;
+}
+
+.header-info {
+    max-width: 50%;
+}
+
+.header-info h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.header-info p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #00FF00;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #00cc00;
+}
+
+.header-image img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+/* about us section*/
+#about h2, #about .about-us-p{
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+#about h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px
+}
+
+
+/* Features Section */
+.features {
+    padding: 50px;
+    background-color: #141414;
+    text-align: center;
+}
+
+
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-block {
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-block h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.feature-block img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Us Section */
+.contact-section {
+    padding: 50px;
+    background-color: #111;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #00FF00;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00cc00;
+}
+
+
+/* Footer Section */
+.footer {
+    padding: 20px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}

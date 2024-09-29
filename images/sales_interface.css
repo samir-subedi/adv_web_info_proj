@@ -1,0 +1,162 @@
+/* General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+.apple-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Navbar Styling */
+.carrot-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.carrot-navbar ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+.carrot-navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.carrot-navbar ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Main Interface */
+.grape-sales-interface {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grape-sales-interface h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Search Bar Styling */
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Product Table Styling */
+.grape-sales-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grape-sales-table th, .grape-sales-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.grape-sales-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.grape-sales-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Cart Summary Styling */
+#cartSummary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#cartSummary ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#cartSummary ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+#cartSummary ul li:last-child {
+    border-bottom: none;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Quantity Input */
+input[type="number"] {
+    padding: 10px;
+    width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+    .grape-sales-table, #cartSummary {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    #searchInput {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+

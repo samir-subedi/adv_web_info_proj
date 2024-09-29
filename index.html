@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Inventory Management System</title>
+    <link rel="stylesheet" href="css/index-before-login.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Header Section -->
+    <header class="main-header" id="home">
+        <div class="header-info">
+            <h1>Efficient Retail Inventory Management System</h1>
+            <p>Manage your inventory with ease, streamline your sales process, and gain valuable insights into your business.</p>
+            <a href="login.php" class="cta-button">Log In</a>
+        </div>
+        <div class="header-image">
+            <img src="images/index-img/banner-bg.webp" alt="Retail Inventory Management System Dashboard">
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p class = "about-us-p">RIMS provides an intuitive and comprehensive solution for managing retail inventory. Our system helps businesses track stock levels, process sales efficiently, and generate insights to make data-driven decisions.</p>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <!-- Add Products Feature -->
+                <div class="feature-block">
+                    <img src="images/index-img/add-products-feature.webp" alt="Add Products">
+                    <h3>Add Products</h3>
+                    <p>Easily add new products to your inventory with detailed descriptions, images, and pricing.</p>
+                </div>
+
+                <!-- View Inventory Feature -->
+                <div class="feature-block">
+                    <img src="images/index-img/view-inventory-feature.webp" alt="View Inventory">
+                    <h3>View Inventory</h3>
+                    <p>Get a complete overview of your stock levels, product categories, and available quantities.</p>
+                </div>
+
+                <!-- Sales Interface Feature -->
+                <div class="feature-block">
+                    <img src="images/index-img/sales-interface-feature.webp" alt="Sales Interface">
+                    <h3>Sales Interface</h3>
+                    <p>Process sales quickly with real-time inventory updates and a user-friendly interface.</p>
+                </div>
+
+                <!-- Report Sales Feature -->
+                <div class="feature-block">
+                    <img src="images/index-img/report-sales-feature.webp" alt="Report Sales">
+                    <h3>Report Sales</h3>
+                    <p>Generate detailed reports that provide insights into your sales performance and profitability.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"The Retail Inventory Management System has transformed how we manage stock. Highly recommended!"</p>
+                <span>- Samir Subedi, Retail Manager</span>
+            </div>
+            <div class="testimonial">
+                <p>"It's easy to use and helps us track inventory across multiple locations seamlessly."</p>
+                <span>- Himanshu Store Owner</span>
+            </div>
+        </section>
+    </section>
+
+    <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="php/index_contact_messeges.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>

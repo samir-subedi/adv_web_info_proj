@@ -1,0 +1,411 @@
+/* ------------------- General Styles ------------------- */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* ------------------- Header and Footer ------------------- */
+.apple-header {
+    background-color: #4CAF50;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Styling */
+.apple-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* ------------------- Navbar ------------------- */
+.carrot-navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carrot-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carrot-navbar ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.carrot-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.carrot-navbar ul li a:hover {
+    background-color: #4CAF50;
+}
+
+/* ------------------- Login Page ------------------- */
+.carrot-login {
+    margin: 50px auto;
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------- Dashboard ------------------- */
+.apple-dashboard {
+    padding: 20px;
+}
+
+/* Statistic Boxes */
+.dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+    margin-bottom: 10px;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.blue {
+    background-color: #2196F3;
+}
+
+.orange {
+    background-color: #FF9800;
+}
+
+.categories-list {
+    list-style: none;
+    padding: 0;
+}
+
+.categories-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #4CAF50;
+    font-size: 1.1em;
+}
+
+/* Sales Chart */
+canvas {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* ------------------- Add/Edit Product Pages ------------------- */
+.banana-product-form {
+    margin: 50px auto;
+    width: 500px; /* Increased width for better spacing */
+    background: white;
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banana-product-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.banana-product-form input, 
+.banana-product-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.banana-product-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em; /* Slightly bigger font */
+}
+
+.banana-product-form button:hover {
+    background-color: #45a049;
+}
+
+/* ------------------- Inventory Table ------------------- */
+.grape-view-inventory {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grape-inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.grape-inventory-table th, .grape-inventory-table td {
+    border: 1px solid #ddd;
+    padding: 15px; /* Increased padding */
+    text-align: left;
+}
+
+.grape-inventory-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.grape-inventory-table img {
+    max-width: 100px;
+}
+
+/* ------------------- Sales Interface ------------------- */
+.grape-sales-interface {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grape-sales-interface h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.grape-sales-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grape-sales-table th, .grape-sales-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.grape-sales-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.grape-sales-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+#cartSummary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#cartSummary ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#cartSummary ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+#cartSummary ul li:last-child {
+    border-bottom: none;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Quantity Input */
+input[type="number"] {
+    padding: 10px;
+    width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling for search results table */
+.grape-search-results {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.grape-search-results th, .grape-search-results td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.grape-search-results th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.grape-search-results td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.add-to-cart-btn:active {
+    background-color: #3e8e41;
+}
+
+
+/* ------------------- Report Sales Page ------------------- */
+.orange-report-sales {
+    padding: 20px;
+}
+
+.orange-report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.orange-report-table th, .orange-report-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.orange-report-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* ------------------- Mobile Responsiveness ------------------- */
+@media only screen and (max-width: 768px) {
+    .grape-sales-table, #cartSummary {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    #searchInput {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Invoice Styling */
+#invoice table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#invoice th, #invoice td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#invoice th {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Styling for the checkout and print buttons */
+.checkout-btn, #printInvoiceBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between buttons */
+    margin-top: 15px;   /* Add margin to separate from the table */
+}
+
+.checkout-btn:hover, #printInvoiceBtn:hover {
+    background-color: #45a049;
+}
+
+.checkout-btn:active, #printInvoiceBtn:active {
+    background-color: #3e8e41;
+}
+
+/* Align the buttons side-by-side */
+button {
+    display: inline-block;
+}
